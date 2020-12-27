@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="STAG01-PC" name="Chapter5.TestChapter2" tests="1" time="24.056" timestamp="2015-02-03T10:47:18">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/Eclipse_juno_32/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre7\lib\resources.jar;C:\Program Files (x86)\Java\jre7\lib\rt.jar;C:\Program Files (x86)\Java\jre7\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre7\lib\jsse.jar;C:\Program Files (x86)\Java\jre7\lib\jce.jar;C:\Program Files (x86)\Java\jre7\lib\charsets.jar;C:\Program Files (x86)\Java\jre7\lib\jfr.jar;C:\Program Files (x86)\Java\jre7\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Eclipse_juno_32\plugins\org.apache.ant_1.8.3.v201301120609" />
+    <property name="java.runtime.version" value="1.7.0_07-b10" />
+    <property name="user.name" value="STAG01" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre7\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="DesignPatterns" />
+    <property name="java.version" value="1.7.0_07" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre7\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files (x86)\Java\jre7" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ROOT" value="." />
+    <property name="ant.file" value="C:\Testing_Workspace\DesignPatterns\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="LIB" value="./lib" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="23.3-b01" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Eclipse_juno_32\plugins\org.apache.ant_1.8.3.v201301120609\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/Eclipse_juno_32/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/scripts/" />
+    <property name="user.home" value="C:\Users\STAG01" />
+    <property name="ant.file.DesignPatterns" value="C:\Testing_Workspace\DesignPatterns\build.xml" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.8.4\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Java\jdk1.7.0_07\bin;E:\MDM_Automation\jacob-1.17-x64.dll;E:\MDM_Automation\jacob-1.17-M2-x86.dll;C:\Program Files\TortoiseSVN\bin;C:\Eclipse_juno_32;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="ant.file.type.DesignPatterns" value="file" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Chapter5.TestChapter2 filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Testing_Workspace\DesignPatterns\junit\TEST-Chapter5.TestChapter2.xml crashfile=C:\Testing_Workspace\DesignPatterns\junitvmwatcher9038955879000096321.properties propsfile=C:\Testing_Workspace\DesignPatterns\junit4674760312714245510.properties" />
+    <property name="java.class.path" value="C:\Testing_Workspace\DesignPatterns\bin;C:\Testing_Workspace\DesignPatterns\lib\apache-mime4j-0.6.jar;C:\Testing_Workspace\DesignPatterns\lib\bsh-1.3.0.jar;C:\Testing_Workspace\DesignPatterns\lib\cglib-nodep-2.1_3.jar;C:\Testing_Workspace\DesignPatterns\lib\commons-codec-1.9.jar;C:\Testing_Workspace\DesignPatterns\lib\commons-collections-3.2.1.jar;C:\Testing_Workspace\DesignPatterns\lib\commons-exec-1.1.jar;C:\Testing_Workspace\DesignPatterns\lib\commons-io-2.4.jar;C:\Testing_Workspace\DesignPatterns\lib\commons-jxpath-1.3.jar;C:\Testing_Workspace\DesignPatterns\lib\commons-lang3-3.3.2.jar;C:\Testing_Workspace\DesignPatterns\lib\commons-logging-1.1.3.jar;C:\Testing_Workspace\DesignPatterns\lib\cssparser-0.9.14.jar;C:\Testing_Workspace\DesignPatterns\lib\guava-15.0.jar;C:\Testing_Workspace\DesignPatterns\lib\hamcrest-core-1.3.jar;C:\Testing_Workspace\DesignPatterns\lib\hamcrest-library-1.3.jar;C:\Testing_Workspace\DesignPatterns\lib\htmlunit-2.15.jar;C:\Testing_Workspace\DesignPatterns\lib\htmlunit-core-js-2.15.jar;C:\Testing_Workspace\DesignPatterns\lib\httpclient-4.3.4.jar;C:\Testing_Workspace\DesignPatterns\lib\httpcore-4.3.2.jar;C:\Testing_Workspace\DesignPatterns\lib\httpmime-4.3.4.jar;C:\Testing_Workspace\DesignPatterns\lib\ini4j-0.5.2.jar;C:\Testing_Workspace\DesignPatterns\lib\jcommander-1.29.jar;C:\Testing_Workspace\DesignPatterns\lib\jetty-websocket-8.1.8.jar;C:\Testing_Workspace\DesignPatterns\lib\jna-3.4.0.jar;C:\Testing_Workspace\DesignPatterns\lib\jna-platform-3.4.0.jar;C:\Testing_Workspace\DesignPatterns\lib\json-20080701.jar;C:\Testing_Workspace\DesignPatterns\lib\junit-dep-4.11.jar;C:\Testing_Workspace\DesignPatterns\lib\nekohtml-1.9.21.jar;C:\Testing_Workspace\DesignPatterns\lib\netty-3.5.7.Final.jar;C:\Testing_Workspace\DesignPatterns\lib\operadriver-1.5.jar;C:\Testing_Workspace\DesignPatterns\lib\phantomjsdriver-1.1.0.jar;C:\Testing_Workspace\DesignPatterns\lib\protobuf-java-2.4.1.jar;C:\Testing_Workspace\DesignPatterns\lib\sac-1.3.jar;C:\Testing_Workspace\DesignPatterns\lib\selenium-java-2.43.1-srcs.jar;C:\Testing_Workspace\DesignPatterns\lib\selenium-java-2.43.1.jar;C:\Testing_Workspace\DesignPatterns\lib\serializer-2.7.1.jar;C:\Testing_Workspace\DesignPatterns\lib\testng-6.8.5.jar;C:\Testing_Workspace\DesignPatterns\lib\xalan-2.7.1.jar;C:\Testing_Workspace\DesignPatterns\lib\xercesImpl-2.11.0.jar;C:\Testing_Workspace\DesignPatterns\lib\xml-apis-1.4.01.jar;C:\Testing_Workspace\DesignPatterns;C:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip;C:\Eclipse_juno_32\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-launcher.jar;C:\Eclipse_juno_32\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant.jar;C:\Eclipse_juno_32\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-junit.jar;C:\Eclipse_juno_32\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="BIN" value="./bin" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="SRC" value="./src" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="eclipse.pdebuild.home" value="/C:/Eclipse_juno_32/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/./" />
+    <property name="java.io.tmpdir" value="C:\Users\STAG01\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Testing_Workspace\DesignPatterns" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="C:\Testing_Workspace\DesignPatterns" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\Eclipse_juno_32\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="TestChapter2" />
+  </properties>
+  <testcase classname="Chapter5.TestChapter2" name="ShouldLoadTheHomePageAndThenCheckButtonOnChapter2" time="23.876" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

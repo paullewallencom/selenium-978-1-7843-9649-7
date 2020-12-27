@@ -1,0 +1,50 @@
+11:53:10  [INFO]  Configuration file path : D:\PacktAutomationFramework\config\automation_config.properties
+11:53:10  [INFO]  Master file path : D:\PacktAutomationFramework\TestData\Master.xls
+11:53:10  [INFO]  Master file sheet name : TestcaseList
+
+*****************************************************************************************
+TC Name:  [TC1]  Search Item on Google and verify search item
+*****************************************************************************************
+-----------------------------------------------------------------------------------------
+TestStep: [search]  Google Search
+-----------------------------------------------------------------------------------------
+11:53:25  [PASS]  Text packt publishing has been entered successfully in webelement
+11:53:25  [INFO]  search returns 'true' value
+
+11:53:25  [TEST-STEP TIME]  0 Minute(s) 0 Second(s)
+
+-----------------------------------------------------------------------------------------
+TestStep: [verifyTitle]  Google Search verification
+-----------------------------------------------------------------------------------------
+11:53:30  [PASS]  packt publishing - Google Search verified
+11:53:30  [INFO]  verifyTitle returns 'true' value
+
+11:53:30  [TEST-STEP TIME]  0 Minute(s) 5 Second(s)
+
+11:53:30  [TEST CASE TIME]  0 Hour(s) 0 Minute(s) 5 Second(s)
+
+*****************************************************************************************
+TC Name:  [TC2]  Search Item on Google
+*****************************************************************************************
+-----------------------------------------------------------------------------------------
+TestStep: [search]  Google Search
+-----------------------------------------------------------------------------------------
+11:53:45  [PASS]  Text packt publishing has been entered successfully in webelement
+11:53:46  [INFO]  search returns 'true' value
+
+11:53:46  [TEST-STEP TIME]  0 Minute(s) 0 Second(s)
+
+-----------------------------------------------------------------------------------------
+TestStep: [verifyTitle]  Google Search verification
+-----------------------------------------------------------------------------------------
+11:53:51  [FAIL]  packt publishing - Search verification failed
+
+11:53:51  [TEST-STEP TIME]  0 Minute(s) 5 Second(s)
+
+11:53:51  [TEST CASE TIME]  0 Hour(s) 0 Minute(s) 5 Second(s)
+
+
+
+----------------------------------------------------------------------------------------------
+Framework by, Packt Publishing, With 'Learning Selenium Tools', Author : Raghavendra Prasad MG
+----------------------------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation">
+	<test name="GoogleSearch">
+		<parameter name="url" value="https://www.google.com/" />
+		<classes>
+			<class name="com.packtFramework.driverInitiator.DriverEngineInitiator" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="39060" started-at="2015-02-02T06:36:19Z" finished-at="2015-02-02T06:36:58Z">
+    <groups>
+    </groups>
+    <test name="GoogleSearch" duration-ms="39060" started-at="2015-02-02T06:36:19Z" finished-at="2015-02-02T06:36:58Z">
+      <class name="com.packtFramework.driverInitiator.DriverEngineInitiator">
+        <test-method status="PASS" signature="testSetUp(java.lang.String)[pri:0, instance:com.packtFramework.driverInitiator.DriverEngineInitiator@351f6d]" name="testSetUp" duration-ms="39050" started-at="2015-02-02T12:06:19Z" finished-at="2015-02-02T12:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+      </class> <!-- com.packtFramework.driverInitiator.DriverEngineInitiator -->
+    </test> <!-- GoogleSearch -->
+  </suite> <!-- Automation -->
+</testng-results>

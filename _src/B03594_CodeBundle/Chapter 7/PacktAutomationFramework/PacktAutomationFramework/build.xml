@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Automation_Framework" basedir="." default="run-test">
+	<property name="ROOT" value="." />
+	<property name="SRC" value="${ROOT}/src" />
+	<property name="LIB" value="${ROOT}/lib" />
+	<property name="BIN" value="${ROOT}/bin" />
+
+	<path id="classpath">
+		<pathelement location="${BIN}"  />
+		<fileset dir="${LIB}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<taskdef name="testng" classname="org.testng.TestNGAntTask" classpath="classpath">
+		<classpath>
+			<pathelement location="lib/testng-6.8.5.jar"/>
+		</classpath>
+	</taskdef>
+
+	<target name="init">
+		<delete dir="${BIN}" />
+		<mkdir dir="${BIN}" />
+	</target>
+
+	<target name="compile" depends="init">
+		<javac includeantruntime="false"  srcdir="${SRC}" fork="false" destdir="${BIN}">
+			<classpath>
+				<pathelement path="BIN">
+				</pathelement>
+				<fileset dir="${LIB}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="run-test" depends="compile">
+		<echo message="Running Automation Test  Scripts..." />
+		
+		<testng outputdir="TestNg_Report"   haltOnfailure="true"  classpathref="classpath">
+			<xmlfileset dir="${ROOT}" includes="testng.xml"/>
+		</testng>
+	</target>
+</project>
